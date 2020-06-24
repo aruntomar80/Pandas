@@ -7,5 +7,12 @@ pipeline {
       }
     }
 
+    stage('Buzz Test') {
+      steps {
+        echo 'Run unit tests'
+        echo 'Run regression tests'
+      }
+    }
+
   }
 }
